@@ -1,4 +1,5 @@
 .page__links:hover {
+  color: #FFFFFF;
   opacity: 0.8;
   transition: opacity 0.5s;
 }
