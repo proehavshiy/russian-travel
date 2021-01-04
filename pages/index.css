@@ -29,4 +29,5 @@
   @import url(../blocks/photo-grid/__item/photo-grid__item.css);
   /*section places*/
   @import url(../blocks/places/places.css);
+  @import url(../blocks/places/__title/places__title.css);
 
