@@ -1,0 +1,9 @@
+.cover__link {
+  color: #FFFFFF;
+  text-decoration-line: none;
+  min-height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

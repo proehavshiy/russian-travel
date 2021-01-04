@@ -7,6 +7,7 @@
 /*стили page*/
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__wrap/page__wrap.css);
+@import url(../blocks/page/__links/page__links.css);
   /*header*/
   @import url(../blocks/header/header.css);
   @import url(../blocks/header/__logo/header__logo.css);
@@ -36,5 +37,14 @@
   @import url(../blocks/places/__url-heading/places__url-heading.css);
   @import url(../blocks/places/__link/places__link.css);
   @import url(../blocks/places/__paragraph/places__paragraph.css);
+  /*section overlay*/
+  @import url(../blocks/cover/cover.css);
+  @import url(../blocks/cover/__title/cover__title.css);
+  @import url(../blocks/cover/__subtitle/cover__subtitle.css);
+  @import url(../blocks/cover/__overlay/cover__overlay.css);
+  @import url(../blocks/cover/_background/cover_background.css);
+  @import url(../blocks/cover/__link/cover__link.css);
+  /*footer*/
+  @import url(../blocks/footer/footer.css);
 
 
