@@ -1,10 +1,10 @@
 .lead__figcaption {
   margin: 0;
   margin-top: 8px;
-  align-self: flex-start;
-  font-size: 10px;
-  font-weight: normal;
   font-style: normal;
-  line-height: 14px;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 1.4;
   letter-spacing: 0.15em;
+  text-transform: uppercase;
 }

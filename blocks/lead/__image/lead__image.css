@@ -1,9 +1,4 @@
 .lead__image {
-  width: 984px;
-  height: 615px;
-  background-image: url(../../../images/lead-platzcart.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
+  max-width: 984px;
+  max-height: 615px;
 }
