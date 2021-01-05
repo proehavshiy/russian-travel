@@ -1,7 +1,21 @@
 .places__place {
   max-width: 100%;
   display: grid;
-  grid-template-columns: min-content minmax(min-content, max-content);
+  grid-template-columns: repeat(2, minmax(min-content, max-content));
   grid-template-rows: repeat(2, minmax(min-content, max-content));
   gap: 48px 40px;
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .places__place {
+    grid-template-columns: min-content;
+  }
+
+}
+
+@media screen and (max-width: 424px) {
+  .places__place {
+    grid-template-columns: min-content;
+  }
+
 }
