@@ -7,5 +7,5 @@
   font-size: 72px;
   line-height: 1.06;
   text-align: center;
-
+  z-index: 1; /*ставим блок над блоком оверлей, чтобы он не затенялся*/
 }

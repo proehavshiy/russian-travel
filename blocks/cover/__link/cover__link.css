@@ -1,9 +1,25 @@
 .cover__link {
   color: #FFFFFF;
   text-decoration-line: none;
-  min-height: inherit;
+  background: transparent; /*по умолч бэкграунд прозрачный, но так нагляднее*/
+  width: 100%; /*задаем 100%, чтобы растянулся на весь родительский блок*/
+  height: 100%; /*задаем 100%, чтобы растянулся на весь родительский блок*/
+  position: absolute; /*позиционируем пустой блок-фон абсолютно по отнош к родительскому cover + чтобы cover__link не конфликтовал с фоном cover__background*/
+  top: 0; /*0, чтобы занял все пространство род блока*/
+  left: 0; /*0, чтобы занял все пространство род блока*/
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
+
+
+/*
+.cover:hover .cover__link {
+  background-color: #2A2C2F;
+  opacity: 0.8;
+  transition: opacity 0.5s;
+  transition-timing-function: ease-in-out;
+}
+*/
