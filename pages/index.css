@@ -53,85 +53,16 @@
 
 /*2*/
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .header {
-    margin-bottom: 48px;
-  }
-
-  .lead__subtitle {
-    margin-bottom: 56px;
-  }
 }
 
 /*3*/
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .header {
-    margin-bottom: 48px;
-  }
-
-  .lead {
-    margin-bottom: 88px;
-  }
-
-  .lead__figcaption {
-  margin-left: 24px;
-  }
-
-  .lead__subtitle {
-    margin-bottom: 56px;
-  }
-
 }
 
 /*4*/
 @media screen and (min-width: 425px) and (max-width: 767px) {
-  .header {
-    margin-bottom: 48px;
-  }
-
-  .lead {
-    margin-bottom: 64px;
-  }
-
-  .lead__title {
-    font-size: 40px;
-    line-height: 1.1;
-    margin-bottom: 16px;
-  }
-
-  .lead__subtitle {
-    font-size: 16px;
-    line-height: 1.25;
-    margin-bottom: 40px;
-  }
-
-  .lead__figcaption {
-    margin-left: 16px;
-  }
 }
 
 /*5*/
 @media screen and (max-width: 424px) {
-  .header {
-    margin-bottom: 48px;
-  }
-
-  .lead {
-    margin-bottom: 64px;
-  }
-
-  .lead__title {
-    font-size: 40px;
-    line-height: 1.1;
-    margin-bottom: 16px;
-  }
-
-  .lead__subtitle {
-    font-size: 16px;
-    line-height: 1.25;
-    margin-bottom: 40px;
-  }
-
-  .lead__figcaption {
-    margin-left: 16px;
-  }
 }

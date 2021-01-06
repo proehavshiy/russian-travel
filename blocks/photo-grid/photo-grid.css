@@ -15,6 +15,32 @@
   }
 }
 
+/*3*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .photo-grid {
+    margin-bottom: 88px;
+    max-width: 720px;
+    gap: 16px;
+  }
+}
+
+/*4*/
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .photo-grid {
+    margin-bottom: 64px;
+    max-width: 288px;
+    gap: 12px;
+  }
+}
+
+/*5*/
+@media screen and (max-width: 424px) {
+  .photo-grid {
+    margin-bottom: 64px;
+    max-width: 288px;
+    gap: 12px;
+  }
+}
 /*
 object-fit: cover;
   grid-template-columns: repeat(4, minmax(min-content, max-content));

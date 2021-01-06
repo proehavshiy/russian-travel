@@ -8,3 +8,26 @@
   letter-spacing: 0.15em;
   text-transform: uppercase;
 }
+
+/*3*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .lead__figcaption {
+  margin-left: 24px;
+  }
+
+
+}
+
+/*4*/
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .lead__figcaption {
+    margin-left: 16px;
+  }
+}
+
+/*5*/
+@media screen and (max-width: 424px) {
+  .lead__figcaption {
+    margin-left: 16px;
+  }
+}
