@@ -3,16 +3,8 @@
   max-height: 52px;
 }
 
-/*4*/
-@media screen and (min-width: 425px) and (max-width: 767px) {
-  .header__logo {
-    max-width: 142px;
-    max-height: 42px;
-  }
-}
-
-/*5*/
-@media screen and (max-width: 424px) {
+/*4-5*/
+@media screen and (max-width: 767px) {
   .header__logo {
     max-width: 142px;
     max-height: 42px;

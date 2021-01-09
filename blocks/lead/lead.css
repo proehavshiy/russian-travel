@@ -1,6 +1,5 @@
 .lead {
   max-width: 984px;
-  margin-bottom: 92px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,27 +8,6 @@
 /*2*/
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .lead {
-
-  }
-}
-
-/*3*/
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .lead {
-    margin-bottom: 88px;
-  }
-}
-
-/*4*/
-@media screen and (min-width: 425px) and (max-width: 767px) {
-  .lead {
-    margin-bottom: 64px;
-  }
-}
-
-/*5*/
-@media screen and (max-width: 424px) {
-  .lead {
-    margin-bottom: 64px;
+    max-width: calc(100vw - (48px*2));
   }
 }

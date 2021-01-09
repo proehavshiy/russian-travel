@@ -8,17 +8,18 @@
   line-height: 1.07;
 }
 
-/*4*/
-@media screen and (min-width: 425px) and (max-width: 767px) {
+/*3*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .intro__title {
-    font-size: 32px;
-    line-height: 1.09;
+    max-width: 100%;
   }
+
 }
 
-/*5*/
-@media screen and (max-width: 424px) {
+/*4-5*/
+@media screen and (max-width: 767px) {
   .intro__title {
+    max-width: 90vw;
     font-size: 32px;
     line-height: 1.09;
   }

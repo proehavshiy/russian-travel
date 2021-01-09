@@ -1,5 +1,4 @@
 .header__lang-link {
-  text-decoration-line: underline;
   color: #FFFFFF;
   font-style: normal;
   font-weight: normal;
@@ -13,16 +12,8 @@
   margin-right: 0;
 }
 
-/*4*/
-@media screen and (min-width: 425px) and (max-width: 767px) {
-  .header__lang-link {
-    font-size: 18px;
-    line-height: 1.11;
-  }
-}
-
-/*5*/
-@media screen and (max-width: 424px) {
+/*4-5*/
+@media screen and (max-width: 767px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 1.11;

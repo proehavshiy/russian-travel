@@ -4,8 +4,18 @@
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 1.22;
   text-align: center;
   z-index: 1; /*ставим блок над блоком оверлей, чтобы он не затенялся*/
 
 }
+
+/*4-5*/
+@media screen and (max-width: 767px) {
+  .cover__subtitle {
+    max-width: 288px;
+    font-size: 14px;
+    line-height: 1.14;
+  }
+}
+

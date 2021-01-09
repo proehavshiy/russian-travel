@@ -1,3 +1,12 @@
 .places__image {
+  display: block;
   max-width: 100%;
+}
+
+/*4*/
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .places__image {
+    width: calc(100vw - 10%);
+    margin: 0 auto;
+  }
 }

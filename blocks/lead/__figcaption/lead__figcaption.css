@@ -14,19 +14,10 @@
   .lead__figcaption {
   margin-left: 24px;
   }
-
-
 }
 
-/*4*/
-@media screen and (min-width: 425px) and (max-width: 767px) {
-  .lead__figcaption {
-    margin-left: 16px;
-  }
-}
-
-/*5*/
-@media screen and (max-width: 424px) {
+/*4-5*/
+@media screen and (max-width: 767px) {
   .lead__figcaption {
     margin-left: 16px;
   }

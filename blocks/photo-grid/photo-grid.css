@@ -1,6 +1,5 @@
 .photo-grid {
   max-width: 1184px;
-  margin-bottom: 92px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, max-content));
   gap: 16px;
@@ -10,7 +9,9 @@
 /*2*/
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .photo-grid {
-    max-width: 928px;
+    max-width: calc(100vw - (48px*2));
+    grid-template-columns: repeat(3, 1fr); /*фракции для того,
+    чтобы ячейки с картинками внутри стали резиновыми и увеличивались-уменьшились в зависимости от ширины вьюпорта/блока*/
     gap: 14px;
   }
 }
@@ -18,8 +19,9 @@
 /*3*/
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .photo-grid {
-    margin-bottom: 88px;
-    max-width: 720px;
+    max-width: calc(100vw - 48px);
+    grid-template-columns: repeat(2, 1fr);/*фракции для того,
+    чтобы ячейки с картинками внутри стали резиновыми и увеличивались-уменьшились в зависимости от ширины вьюпорта/блока*/
     gap: 16px;
   }
 }
@@ -27,8 +29,9 @@
 /*4*/
 @media screen and (min-width: 425px) and (max-width: 767px) {
   .photo-grid {
-    margin-bottom: 64px;
-    max-width: 288px;
+    max-width: calc(100vw - 48px);
+    grid-template-columns: repeat(2, 1fr);/*фракции для того,
+    чтобы ячейки с картинками внутри стали резиновыми и увеличивались-уменьшились в зависимости от ширины вьюпорта/блока*/
     gap: 12px;
   }
 }
@@ -36,8 +39,8 @@
 /*5*/
 @media screen and (max-width: 424px) {
   .photo-grid {
-    margin-bottom: 64px;
-    max-width: 288px;
+    max-width: calc(100vw - 32px);
+    grid-template-columns: 1fr;
     gap: 12px;
   }
 }

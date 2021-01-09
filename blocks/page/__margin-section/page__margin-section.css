@@ -1,0 +1,26 @@
+.page__margin-section {
+  margin-bottom: 92px;
+}
+
+/*2*/
+/*3*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .page__margin-section {
+    margin-bottom: 88px;
+  }
+
+  .places.page__margin-section {
+    margin-bottom: 90px;
+  }
+}
+
+/*4-5*/
+@media screen and (max-width: 767px) {
+  .page__margin-section {
+    margin-bottom: 64px;
+  }
+
+  .places.page__margin-section {
+    margin-bottom: 66px;
+  }
+}

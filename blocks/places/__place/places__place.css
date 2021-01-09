@@ -6,16 +6,33 @@
   gap: 48px 40px;
 }
 
-@media screen and (min-width: 425px) and (max-width: 767px) {
+/*2*/
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .places__place {
-    grid-template-columns: min-content;
-  }
+    grid-template-columns: fit-content(47.4137931%) minmax(min-content, max-content);
+    /*1- 440/928 - ширина 1 блока/ширину родителя = 1 блок резиновый. Только картинки малого разрешения,
+    поэтому это видно только на малой вилке разрешений. Больше своей ширины они не масштабируются.
+    2 - адаптив, исходя из контента  */
+    gap: 48px 32px;
 
+  }
 }
 
-@media screen and (max-width: 424px) {
+/*3*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .places__place {
-    grid-template-columns: min-content;
+    grid-template-columns: fit-content(47.2222222%) minmax(min-content, max-content);
+    /*1- 340/720 - ширина 1 блока/ширину родителя = 1 блок резиновый. Только картинки малого разрешения,
+    поэтому это видно только на малой вилк
+    е разрешений. Больше своей ширины они не масштабируются.
+    2 - адаптив, исходя из контента*/
+    gap: 48px 28px;
   }
+}
 
+/*4-5*/
+@media screen and (max-width: 767px) {
+  .places__place {
+    grid-template-columns: 100%;
+  }
 }
