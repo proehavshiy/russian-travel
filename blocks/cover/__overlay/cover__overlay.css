@@ -4,7 +4,6 @@
   position: absolute;
   left: 0;
   top: 0;
-  background: transparent;
   z-index: 0; /*подкладываем оверлей под блоки заголовка и подзаголовка, чтобы они не затенялись*/
   background: #2A2C2F;
   opacity: 0.3; /*затемненный на .3 фон до наведения мыши*/
