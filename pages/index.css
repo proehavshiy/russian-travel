@@ -1,8 +1,7 @@
 /*стили normalize.css*/
 @import url(../vendor/normalize.css);
-
 /*подключение шрифта Inter*/
-@import url(../vendor/Font_Inter/inter.css);
+@import url(../vendor/fonts/Font_Inter/inter.css);
 /*стили page*/
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__wrap/page__wrap.css);
@@ -55,18 +54,4 @@
   @import url(../blocks/footer/__copyright/footer__copyright.css);
 
 
-/*2*/
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-}
 
-/*3*/
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-}
-
-/*4*/
-@media screen and (min-width: 425px) and (max-width: 767px) {
-}
-
-/*5*/
-@media screen and (max-width: 424px) {
-}
