@@ -1,4 +1,4 @@
-.places__place {
+.place {
   max-width: 100%;
   display: grid;
   grid-template-columns: repeat(2, minmax(min-content, max-content));
@@ -8,7 +8,7 @@
 
 /*2*/
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .places__place {
+  .place {
     grid-template-columns: fit-content(47.4137931%) minmax(min-content, max-content);
     /*1- 440/928 - ширина 1 блока/ширину родителя = 1 блок резиновый. Только картинки малого разрешения,
     поэтому это видно только на малой вилке разрешений. Больше своей ширины они не масштабируются.
@@ -20,7 +20,7 @@
 
 /*3*/
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .places__place {
+  .place {
     grid-template-columns: fit-content(47.2222222%) minmax(min-content, max-content);
     /*1- 340/720 - ширина 1 блока/ширину родителя = 1 блок резиновый. Только картинки малого разрешения,
     поэтому это видно только на малой вилк
@@ -32,7 +32,7 @@
 
 /*4-5*/
 @media screen and (max-width: 767px) {
-  .places__place {
+  .place {
     grid-template-columns: 100%;
     gap: 32px;
   }

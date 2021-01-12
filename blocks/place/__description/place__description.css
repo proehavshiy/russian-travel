@@ -1,10 +1,10 @@
-.places__website {
-  align-self: end;
+.place__description {
+
 }
 
 /*4-5*/
 @media screen and (max-width: 767px) {
-  .places__website {
+  .place__description {
     width: 90%;
     margin: 0 auto;
   }

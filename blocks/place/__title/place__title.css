@@ -1,4 +1,4 @@
-.places__title {
+.place__title {
   margin: 0;
   max-width: 460px;
   font-style: normal;
@@ -9,7 +9,7 @@
 
 /*3*/
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .places__title {
+  .place__title {
     font-size: 42px;
     line-height: 1.1;
   }
@@ -17,7 +17,7 @@
 
 /*4-5*/
 @media screen and (max-width: 767px) {
-  .places__title {
+  .place__title {
     min-width: 90%;
     margin: 0 auto;
     font-size: 32px;

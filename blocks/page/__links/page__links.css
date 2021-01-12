@@ -2,9 +2,9 @@
   color: #FFFFFF;
   opacity: 1;
   transition: opacity 0.2s ease;
+  text-decoration: none;
 }
 .page__links:hover {
-  color: #FFFFFF;
   opacity: 0.8;
   transition: opacity 0.2s ease;
 }

@@ -6,6 +6,7 @@
   line-height: 1.17;
   text-align: right;
   margin-right: 18px;
+  text-decoration: none;
 }
 
 .header__lang-link:last-of-type {
