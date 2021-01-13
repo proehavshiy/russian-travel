@@ -1,18 +1,17 @@
-.page__margin-section-same {
+.page__section_margin_unique {
   margin-bottom: 92px;
 }
 
-/*2*/
 /*3*/
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .page__margin-section-same {
-    margin-bottom: 88px;
+  .page__section_margin_unique {
+    margin-bottom: 90px;
   }
 }
 
 /*4-5*/
 @media screen and (max-width: 767px) {
-  .page__margin-section-same {
-    margin-bottom: 64px;
+  .page__section_margin_unique {
+    margin-bottom: 66px;
   }
 }
